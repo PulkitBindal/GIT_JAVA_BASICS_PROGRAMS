@@ -1,0 +1,7 @@
+import java.applet.Applet;
+/*<applet code="MyApplet" witdh="300" height="300">
+*/
+public class MyApplet extends Applet
+{
+	
+}
