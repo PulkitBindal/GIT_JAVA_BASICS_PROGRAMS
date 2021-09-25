@@ -19,7 +19,6 @@ class seperate{
 		{
 			A[i]=1;
 		}
-		//return ;
 	}
 }
 public class geminicode{
@@ -27,11 +26,9 @@ public class geminicode{
 		int A[] = {1,0,1,1,1,1,1,0,1,0,0,0,0,1,0,1,0};
 		int len = A.length;
 		seperate s = new seperate();
-		//int p = 
 		s.fun(A,len);
 		for (int i=0;i<len;i++){
 			System.out.println(A[i]);
 		}
-		//System.out.println(s.fun(A,len));
 	}
 }
